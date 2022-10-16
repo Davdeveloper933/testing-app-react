@@ -1,0 +1,51 @@
+.map {
+    background: #085298;
+    border-radius: 5px 0px 0px 5px;
+    padding: 62px 30px 42px 30px;
+    max-width: 508px;
+}
+
+.mapText {
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+max-width: 290px;
+margin: 0 auto;
+}
+
+.mapImage {
+    margin-top: 29px;
+    img {
+        border-radius: 5px;
+    }
+}
+
+.mapAddress {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    .mapAddress__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-left: 6px;
+    }
+}
+
+.mapSocials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 12px;
+    .socialsItem {
+        path {
+            fill: white;
+        }
+    }
+}

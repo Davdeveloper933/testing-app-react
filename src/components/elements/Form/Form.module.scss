@@ -1,0 +1,72 @@
+.form {
+    max-width: 566px;
+    .button-blue {
+        margin-top: 24px;
+    }
+}
+
+.formGroup {
+    // margin: 24px 0;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    @media screen and (max-width:767px) {
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    .formGroup {
+        
+    }
+}
+
+.label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.inputBlock {
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+    margin-top: 5px;
+    input,textarea {
+        padding: 11px 23px;
+        padding-left: 37px;
+        width: 100%;
+        height: 100%;
+        &::placeholder {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: rgba(31, 32, 65, 0.25);
+        }
+    }
+    textarea {
+        width: 100%;
+        height: 128px;
+        resize: none;
+        padding: 12px;
+    }
+}
+
+.inputIcon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    line-height: 45px;
+    left: 9px;
+    svg path {
+        fill: #C7C7CF;
+    }
+}

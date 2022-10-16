@@ -1,0 +1,53 @@
+.Slider {
+    height: 630px;
+    margin: 0 auto;
+    @media screen and (max-width:1200px) {
+        height: 530px;
+    }
+    @media screen and (max-width:992px) {
+        height: 430px;
+    }
+}
+
+.sliderItem {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    .sliderItem__text {
+        color: #fff;
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        top:50%;
+        transform: translate(0, -50%);
+    }
+    .subtitle {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 18px;
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 56px;
+        letter-spacing: 0.2px;
+        max-width: 498px;
+    }
+}
+
+.swipePrev {
+    position: absolute;
+    left: 3%;
+    top:50%;
+    transform: translate(0, -50%);
+}
+
+.swipeNext {
+    position: absolute;
+    right: 3%;
+    top:50%;
+    transform: translate(0, -50%);
+}

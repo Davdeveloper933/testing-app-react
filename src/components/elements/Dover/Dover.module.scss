@@ -1,0 +1,43 @@
+.Dover {
+    padding: 35px 0;
+    background: #F5F5F5;
+}
+
+.right {
+    max-width: 815px;
+    margin-left: 120px;
+    @media screen and (max-width: 992px) {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+    @media screen and (max-width: 1200px) {
+        max-width: 100%;
+        margin-left: 35px;
+    }
+    @media screen and (max-width: 700px) {
+        margin-left: 0;
+    }
+    p {
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #000000;
+    }
+}
+
+.left {
+    img {
+        min-width: 171px;
+    }
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
