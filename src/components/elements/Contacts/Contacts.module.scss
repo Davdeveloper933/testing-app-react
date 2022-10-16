@@ -37,7 +37,7 @@ color: #FFFFFF;
     align-items: end;
     gap: 30px;
     @media screen and (max-width: 1200px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         gap: 30px;
     }

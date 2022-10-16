@@ -50,13 +50,13 @@ const Slider = () => {
             <SwiperSlide key={key}>
               <div className={styles.sliderItem}>
                 <img src={data.src} alt="" />
-                <div className={styles.sliderItem__text}>
-                        <button className={styles.swipePrev} onClick={prevto}>
+                <button className={styles.swipePrev} onClick={prevto}>
                                 <img src={arrowLeft} alt="swipe-prev" />
                         </button>
                         <button className={styles.swipeNext} onClick={nexto}>
                                 <img src={arrowRight} alt="swipe-next" />
                         </button>
+                <div className={styles.sliderItem__text}>
                     <div className="container">
                         <div className="d-flex align-center">
                             <div className={styles.sliderItem__inner}>

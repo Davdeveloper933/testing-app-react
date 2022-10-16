@@ -20,6 +20,10 @@
         width: 100%;
         top:50%;
         transform: translate(0, -50%);
+        @media screen and (max-width: 540px) {
+            top: 20px;
+            transform: translate(0,0);
+        }
     }
     .subtitle {
         font-weight: 400;
@@ -28,6 +32,10 @@
         letter-spacing: 0.4px;
         text-transform: uppercase;
         margin-bottom: 16px;
+        @media screen and (max-width: 992px) {
+            font-size: 1.1rem;
+            line-height: 1;
+        }
     }
     .title {
         font-weight: 700;
@@ -35,6 +43,13 @@
         line-height: 56px;
         letter-spacing: 0.2px;
         max-width: 498px;
+        @media screen and (max-width: 992px) {
+            font-size: 2.3rem;
+            line-height: 1;
+        }
+        @media screen and (max-width: 767px) {
+            font-size: 2rem;
+        }
     }
 }
 
@@ -43,6 +58,7 @@
     left: 3%;
     top:50%;
     transform: translate(0, -50%);
+    z-index: 3;
 }
 
 .swipeNext {
@@ -50,4 +66,5 @@
     right: 3%;
     top:50%;
     transform: translate(0, -50%);
+    z-index: 3;
 }
